@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Website</title>
+    <style></style>
+</head>
+
+<body>
+    <div class="hero">
+        <div class="hero-text">
+            <p class="main-heading">Award Winning</p>
+            <p class="sub-heading left">Digital Marketing Agency</p>
+            <p class="description">Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante
+                at elit fringilla ac at purus, Morbi sed lacus nec risus finibus feugiat et fermentum</p>
+            <button onclick="show('popup1')">Contact Us</button>
+        </div>
+        <div class="hero-image">
+            <img src="images/hero.png" alt="Woman doing something" width="487px" />
+        </div>
+        <div class="popup" id="popup1">
+            <button class="close-btn" onclick="hide('popup1')"><i class="fa-solid fa-xmark fa-2x"></i></button>
+            <form action="https://getform.io/f/qalodelb" method="POST">
+                <p class="form-heading">Talk to us</p>
+                <input class="full" type="email" name="email" id="email" placeholder="Work email*" />
+                <input class="half" type="text" name="firstName" id="fistName" placeholder="First name*" />
+                <input class="half" type="text" name="lastName" id="lastName" placeholder="Last name*" />
+                <div class="consent">
+                    <input type="checkbox" name="subscribe" value="yes" checked />
+                    <p>I agree to Fyle's terms and conditions, and provide consent to send me communication.</p>
+                </div>
+                <button class="submit-btn" type="submit">Contact Us</button>
+            </form>
+        </div>
+    </div>
+    <div class="services">
+        <div class="services-section">
+            <p class="main-heading semibold">WHAT WE DO</p>
+            <div class="services-flex">
+                <div class="services-heading">Services Provide For You</div>
+                <div class="services-descp">Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque
+                    vitae ante at elit fringilla ac at purus, Morbi sed lacus nec risus finibus feugiat et fermentum
+                </div>
+            </div>
+        </div>
+        <div class="slider">
+            <div class="wrapper">
+                <i id="left" class="fa-solid fa-angle-left"></i>
+                <ul class="carousel">
+                    <li class="card">
+                        <img src="images/1-2.png" alt="img" draggable="false" />
+                        <div class="overlay">
+                            <div class="overlay-items">
+                                <img src="images/icon.svg" alt="">
+                                <h4>Web Development</h4>
+                                <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque</p>
+                                <button><a href="https://www.fylehq.com/">READ MORE</a><img
+                                        src="images/arrow.svg" /></button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="card">
+                        <img src="images/2-2.png" alt="img" draggable="false" />
+                        <div class="overlay">
+                            <div class="overlay-items">
+                                <img src="images/icon.svg" alt="">
+                                <h4>Web Development</h4>
+                                <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque</p>
+                                <button><a href="https://www.fylehq.com/">READ MORE</a><img
+                                        src="images/arrow.svg" /></button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="card">
+                        <img src="images/1-2.png" alt="img" draggable="false" />
+                        <div class="overlay">
+                            <div class="overlay-items">
+                                <img src="images/icon.svg" alt="">
+                                <h4>Web Development</h4>
+                                <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque</p>
+                                <button><a href="https://www.fylehq.com/">READ MORE</a><img
+                                        src="images/arrow.svg" /></button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="card">
+                        <img src="images/2-2.png" alt="img" draggable="false" />
+                        <div class="overlay">
+                            <div class="overlay-items">
+                                <img src="images/icon.svg" alt="">
+                                <h4>Web Development</h4>
+                                <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque</p>
+                                <button><a href="https://www.fylehq.com/">READ MORE</a><img
+                                        src="images/arrow.svg" /></button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <i id="right" class="fa-solid fa-angle-right"></i>
+            </div>
+        </div>
+    </div>
+    <div class="choose-us">
+        <p class="main-heading center">WHY CHOOSE US</p>
+        <p class="sub-heading small">Why We Are Best</p>
+        <div class="benefits">
+            <div class="item">
+                <img src="images/1-1.svg" alt="" height="72px" />
+                <h3>Clarified Vision & Target</h3>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
+            </div>
+            <div class="item">
+                <img src="images/2-1.svg" alt="" height="72px" />
+                <h3>High Performance</h3>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
+            </div>
+            <div class="item">
+                <img src="images/3-1.svg" alt="" height="72px" />
+                <h3>Maintain Security</h3>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
+            </div>
+            <div class="item">
+                <img src="images/4.svg" alt="" height="72px" />
+                <h3>Better Strategy & Quality</h3>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
+            </div>
+        </div>
+    </div>
+    <div class="project">
+        <p class="main-heading center">Our project</p>
+        <p class="sub-heading small">Why We Are Best</p>
+        <div class="projects">
+            <div class="image-container">
+                <img id="img1" src="images/image.png" alt="Image 1" class="image" width="770px">
+                <img id="img2" src="images/image-3.jpg" alt="Image 2" class="image" width="770px">
+                <img id="img3" src="images/image-4.jpg" alt="Image 3" class="image" width="770px">
+            </div>
+            <div class="highlights">
+                <div class="highlight-item active" id="btn1" onclick="showImage('img1', 'btn1')">
+                    <h3>Genderless Kei – Japan’s Hot</h3>
+                    <p>Set to launch on the manufacturer’s new A330neo aircraft in 2017, it’s offering lots of</p>
+                </div>
+                <div class="highlight-item" id="btn2" onclick="showImage('img2', 'btn2')">
+                    <h3>Better Strategy & Quality</h3>
+                    <p>Set to launch on the manufacturer’s new A330neo aircraft in 2017, it’s offering lots of</p>
+                </div>
+                <div class="highlight-item" id="btn3" onclick="showImage('img3', 'btn3')">
+                    <h3>Genderless Kei – Japan’s Hot</h3>
+                    <p>Set to launch on the manufacturer’s new A330neo aircraft in 2017, it’s offering lots of</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="services">
+        <p class="main-heading center">Experts growts</p>
+        <p class="sub-heading small">Our Company Growth</p>
+        <div class="growth-items">
+            <div>
+                <img src="images/heart (2).svg" alt="" height="36px" />
+                <p class="growth-item">199 +</p>
+                <p>Staticfied Customers</p>
+            </div>
+            <div>
+                <img src="images/clock (3).svg" alt="" height="36px" />
+                <p class="growth-item">1591+</p>
+                <p>Days Of Operation</p>
+            </div>
+            <div>
+                <img src="images/Path 4402.svg" alt="" height="36px" />
+                <p class="growth-item">283 +</p>
+                <p>Complete Project</p>
+            </div>
+            <div>
+                <img src="images/Path 4406.svg" alt="" height="36px" />
+                <p class="growth-item">75+</p>
+                <p>Win Awards</p>
+            </div>
+        </div>
+    </div>
+    <div class="feedback">
+        <p class="main-heading center">client's feedback</p>
+        <p class="sub-heading small">people say's about us !</p>
+        <img src="images/Quotemarks-left.svg" alt="" width="64px" height="46px" />
+        <p class="review">Jannat Tumpa The standard chunk of Lorem Ipsum used since the 1500s is below for those
+            interested. Sections Bonorum et Malorum original.</p>
+        <p class="reviewer"><span>JANNAT TUMPA</span> - COO, AMERIMAR ENTERPRISES, INC.</p>
+    </div>
+    <div class="footer">
+        <div><img src="images/Group 500.png" alt="" /></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
